@@ -9,7 +9,7 @@ html {
   
 body {
   min-height: 100%;
-  font-family: Arial, sans-serif;
+  font-family: "Comic Sans MS";
   background: linear-gradient(-45deg, #00f260, #0575e6);
   text-align: center;
 }
@@ -37,7 +37,7 @@ h1 {
   font-size: 60px;
   font-weight: bold;
   color: #ff0000;
-  font-family: 'Comic Sans MS';
+  font-style: italic;
 }
 
 .small-text {
