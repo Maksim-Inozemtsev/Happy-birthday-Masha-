@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("./Comic Sans MS.ttf");
+}
+
+html {
+  min-height: 100vh;
+}
+  
+body {
+  min-height: 100%;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(-45deg, #00f260, #0575e6);
+  text-align: center;
+}
+        
+h1 {
+  padding-top: 50px;
+  color: #ff69b4;
+  font-size: 50px;
+}
+        
+.greeting {
+  animation: fadeIn 2s;
+}
+        
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.big-text {
+  font-size: 60px;
+  font-weight: bold;
+  color: #ff0000;
+  font-family: 'Comic Sans MS';
+}
+
+.small-text {
+  font-size: 30px;
+  color: #fffc47;
+}
+
+.sign {
+  color: #95f853;
+  text-align: right;
+  padding-right: 20%;
+}
